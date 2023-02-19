@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
+    title: `Vitrine de l'Atelier Nocciolae`,
     siteUrl: `https://jamm.matter.design`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Sydney Ecommerce Theme`,
-        short_name: `Sydney`,
+        name: `Vitrine de l'Atelier Nocciola`,
+        short_name: `Atelier Nocciola`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#ffffff`,
