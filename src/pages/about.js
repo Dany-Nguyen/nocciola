@@ -27,7 +27,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          title={`Nocciola \n Une marque française d'accessoires faits main`}
         />
 
         <div className={styles.navContainer}>
@@ -48,16 +48,13 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              Fondée in 2023, Nocciola est une marque terre-à-terre d'un couple qui vient du sud de la France et qui s'est lancée dans son aventure parisienne.
+              Nous vendons nos créations sur demande.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
+              Nous créons nos produits à la main avec une attention particulière sur le choix des produits et sur le détail de la réalisation.
             </p>
           </div>
         </Container>
@@ -68,7 +65,7 @@ const AboutPage = (props) => {
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content}>
-            <h3>Our Values</h3>
+            <h3>Nos valeurs</h3>
             <div ref={valuesRef}>
               <p>
                 Sunspel produced some of the world's earliest T-shirts. In the

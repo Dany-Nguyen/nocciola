@@ -40,18 +40,18 @@ const IndexPage = () => {
       <div className={styles.messageContainer}>
         <p>
           This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+          <span className={styles.gold}>Dany - Nocciola's cofounder.</span>
         </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          accessories made by {' '}
+          <span className={styles.gold}>Noémie - Nocciola's cofounder.</span>
         </p>
       </div>
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Premiers essais'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -59,7 +59,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Notre première banane'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -79,7 +79,7 @@ const IndexPage = () => {
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
             title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            description={`Cette banane a été créée à la main depuis un atelier du 4ème arrondissement de Paris`}
             textLink={'shop now'}
             link={'/shop'}
           />
@@ -98,9 +98,9 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'à propos de Nocciola'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Marque créée par Noémie et Dany.”'
         }
       />
 
@@ -130,7 +130,7 @@ const IndexPage = () => {
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          subtitle={'Tag @ateliernocciola to be featured.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
