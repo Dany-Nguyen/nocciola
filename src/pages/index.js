@@ -39,7 +39,7 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
+          Boutique Atelier Nocciola, boutique made by{' '}
           <span className={styles.gold}>Dany - Nocciola's cofounder.</span>
         </p>
         <p>
@@ -49,15 +49,15 @@ const IndexPage = () => {
       </div>
 
       {/* Collection Container */}
-      <div className={styles.collectionContainer}>
+      {/* <div className={styles.collectionContainer}>
         <Container size={'large'}>
           <Title name={'Premiers essais'} />
           <ProductCollectionGrid />
         </Container>
-      </div>
+      </div> */}
 
       {/* New Arrivals */}
-      <div className={styles.newArrivalsContainer}>
+      {/* <div className={styles.newArrivalsContainer}>
         <Container>
           <Title name={'Notre première banane'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
@@ -68,7 +68,7 @@ const IndexPage = () => {
             data={newArrivals}
           />
         </Container>
-      </div>
+      </div> */}
 
       {/* Highlight  */}
       <div className={styles.highlightContainer}>
@@ -78,7 +78,7 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
+            title={'Notre première banane'}
             description={`Cette banane a été créée à la main depuis un atelier du 4ème arrondissement de Paris`}
             textLink={'shop now'}
             link={'/shop'}
@@ -87,13 +87,13 @@ const IndexPage = () => {
       </div>
 
       {/* Promotion */}
-      <div className={styles.promotionContainer}>
+      {/* <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Quote */}
       <Quote
@@ -105,15 +105,15 @@ const IndexPage = () => {
       />
 
       {/* Blog Grid */}
-      <div className={styles.blogsContainer}>
+      {/* <div className={styles.blogsContainer}>
         <Container size={'large'}>
           <Title name={'Journal'} subtitle={'Notes on life and style'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
-      </div>
+      </div> */}
 
       {/* Promotion */}
-      <div className={styles.sustainableContainer}>
+      {/* <div className={styles.sustainableContainer}>
         <Hero
           image={'/banner3.png'}
           title={'We are Sustainable'}
@@ -124,7 +124,7 @@ const IndexPage = () => {
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
-      </div>
+      </div> */}
 
       {/* Social Media */}
       <div className={styles.socialContainer}>
