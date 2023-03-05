@@ -38,9 +38,8 @@ const ProductPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <Breadcrumbs
             crumbs={[
-              { link: '/', label: 'Home' },
-              { label: 'Men', link: '/shop' },
-              { label: 'Sweater', link: '/shop' },
+              { link: '/', label: 'Menu' },
+              { label: 'Bananes', link: '/shop' },
               { label: `${sampleProduct.name}` },
             ]}
           />
@@ -136,7 +135,7 @@ const ProductPage = (props) => {
             </div>
           </div>
           <div className={styles.suggestionContainer}>
-            <h2>You may also like</h2>
+            <h2>Vous aimeriez peut-être aussi</h2>
             <ProductCardGrid
               spacing
               showSlider
@@ -151,12 +150,12 @@ const ProductPage = (props) => {
           <Split
             image={'/cloth.png'}
             alt={'attribute description'}
-            title={'Sustainability'}
+            title={'Design'}
             description={
-              'We design our products to look good and to be used on a daily basis. And our aim is to inspire people to live with few timeless objects made to last. This is why quality over quantity is a cornerstone of our ethos and we have no interest in trends or seasonal collections.'
+              'Avec notre banane tendance et pratique, vous pouvez garder vos affaires en sécurité et à portée de main tout en ajoutant une touche de style à votre tenue.'
             }
-            ctaText={'learn more'}
-            cta={() => navigate('/blog')}
+            ctaText={'En savoir plus'}
+            cta={() => navigate('/about')}
             bgColor={'var(--standard-light-grey)'}
           />
         </div>

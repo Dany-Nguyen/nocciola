@@ -9,7 +9,7 @@ import * as styles from './about.module.css';
 const AboutPage = (props) => {
   let historyRef = useRef();
   let valuesRef = useRef();
-  let sustainabilityRef = useRef();
+  let characterRef = useRef();
 
   const handleScroll = (elementReference) => {
     if (elementReference) {
@@ -32,16 +32,16 @@ const AboutPage = (props) => {
 
         <div className={styles.navContainer}>
           <ThemeLink onClick={() => handleScroll(historyRef)} to={'#history'}>
-            History
+            Histoire
           </ThemeLink>
           <ThemeLink onClick={() => handleScroll(valuesRef)} to={'#values'}>
-            Values
+            Valeur
           </ThemeLink>
           <ThemeLink
-            onClick={() => handleScroll(sustainabilityRef)}
-            to={'#sustainability'}
+            onClick={() => handleScroll(characterRef)}
+            to={'#character'}
           >
-            Sustainability
+            Personnalité
           </ThemeLink>
         </div>
 
@@ -83,10 +83,10 @@ const AboutPage = (props) => {
               <img alt={'fanny pack'} src={'/about2.png'}></img>
             </div>
             <h3>Notre personnalité</h3>
-            <div id={'#sustainability'} ref={sustainabilityRef}>
+            <div id={'#character'} ref={characterRef}>
               <p>
                 Notre fondatrice, Noémie, a la volonté de créer des produits
-                avec un design à la fois pratique et un grande attention du détail.
+                avec un design à la fois pratique et avec un grande attention du détail.
                 Elle souhaite apporter des accessoires élégants et durable. 
               </p>
               <p>

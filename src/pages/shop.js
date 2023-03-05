@@ -35,23 +35,23 @@ const ShopPage = (props) => {
           <div className={styles.breadcrumbContainer}>
             <Breadcrumbs
               crumbs={[
-                { link: '/', label: 'Home' },
-                { link: '/', label: 'Woman' },
-                { label: 'Sweaters' },
+                { link: '/', label: 'Menu' },
+                { link: '/', label: 'Bananes' },
+                { label: 'Bananes' },
               ]}
             />
           </div>
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman's Sweaters`}
+          name={`Bananes`}
           subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
+            'Avec notre banane tendance et pratique, vous pouvez garder vos affaires en sécurité et à portée de main tout en ajoutant une touche de style à votre tenue.'
           }
         />
         <Container size={'large'} spacing={'min'}>
           <div className={styles.metaContainer}>
-            <span className={styles.itemCount}>476 items</span>
+            <span className={styles.itemCount}>1 item</span>
             <div className={styles.controllerContainer}>
               <div
                 className={styles.iconContainer}
@@ -59,12 +59,12 @@ const ShopPage = (props) => {
                 onClick={() => setShowFilter(!showFilter)}
               >
                 <Icon symbol={'filter'} />
-                <span>Filters</span>
+                <span>Filtres</span>
               </div>
               <div
                 className={`${styles.iconContainer} ${styles.sortContainer}`}
               >
-                <span>Sort by</span>
+                <span>Trier par</span>
                 <Icon symbol={'caret'} />
               </div>
             </div>
@@ -75,17 +75,17 @@ const ShopPage = (props) => {
             filters={Config.filters}
           />
           <div className={styles.chipsContainer}>
-            <Chip name={'XS'} />
-            <Chip name={'S'} />
+            <Chip name={'Standard'} />
+            <Chip name={'XL'} />
           </div>
           <div className={styles.productContainer}>
-            <span className={styles.mobileItemCount}>476 items</span>
+            <span className={styles.mobileItemCount}>1 items</span>
             <ProductCardGrid data={data}></ProductCardGrid>
           </div>
           <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
+            <span>1 de 1</span>
             <Button fullWidth level={'secondary'}>
-              LOAD MORE
+              Charger plus
             </Button>
           </div>
         </Container>

@@ -31,14 +31,14 @@ const ShopV2Page = (props) => {
       <div className={styles.root}>
         <Container size={'large'} spacing={'min'}>
           <Breadcrumbs
-            crumbs={[{ link: '/', label: 'Home' }, { label: 'Woman' }]}
+            crumbs={[{ link: '/', label: 'Menu' }, { label: 'Bananes' }]}
           />
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman`}
+          name={`Bananes`}
           subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
+            'Avec notre banane tendance et pratique, vous pouvez garder vos affaires en sécurité et à portée de main tout en ajoutant une touche de style à votre tenue.'
           }
         />
         <Container size={'large'} spacing={'min'}>
@@ -77,9 +77,9 @@ const ShopV2Page = (props) => {
             </div>
           </div>
           <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
+            <span>1 page sur 1</span>
             <Button fullWidth level={'secondary'}>
-              LOAD MORE
+              Charger plus
             </Button>
           </div>
         </Container>
