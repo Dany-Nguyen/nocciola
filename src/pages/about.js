@@ -68,54 +68,42 @@ const AboutPage = (props) => {
             <h3>Nos valeurs</h3>
             <div ref={valuesRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+              Les produits faits à la main par des créatrices indépendantes sont souvent porteurs de fortes valeurs. 
+              Tout d'abord, ils sont confectionnés avec soin et minutie, ce qui reflète la passion et l'engagement de la créatrice envers son travail. 
+              De plus, les produits faits à la main sont souvent fabriqués à partir de matériaux durables et respectueux de l'environnement, 
+              ce qui s'inscrit dans une démarche écologique et responsable. 
+              Enfin, acheter des produits faits à la main auprès de créatrices indépendantes permet de soutenir l'artisanat local et l'économie locale, 
+              ce qui renforce la préservation des savoir-faire traditionnels.
               </p>
               <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>Soin et minutie</li>
+                <li>Respectueux de l'environnement</li>
+                <li>Artisanat local</li>
               </ol>
-              <img alt={'founder'} src={'/about2.png'}></img>
+              <img alt={'fanny pack'} src={'/about2.png'}></img>
             </div>
-            <h3>Sustainability</h3>
+            <h3>Notre personnalité</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+                Notre fondatrice, Noémie, a la volonté de créer des produits
+                avec un design à la fois pratique et un grande attention du détail.
+                Elle souhaite apporter des accessoires élégants et durable. 
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+                La praticité est primordiale car un produit d'accessoire 
+                doit faciliter la vie de son propriétaire au quotidien. 
+                Il doit être facile à utiliser, à transporter et à entretenir.
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+                Avec sa machine Bernina et ses produits sélectionnés individuellement,
+                vous reconnaitrez la fine touche d'Atelier Nocciola.
               </p>
             </div>
           </div>
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={'/about3.png'}></img>
+          <img alt={'sewing handmade'} src={'/about3.png'}></img>
         </div>
       </div>
     </Layout>

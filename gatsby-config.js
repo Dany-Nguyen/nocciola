@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Vitrine de l'Atelier Nocciolae`,
-    siteUrl: `https://jamm.matter.design`,
+    title: `Nocciola`,
+    siteUrl: `https://www.nocciola.fr`,
+    description: `Vitrine de l'Atelier Nocciola`,
   },
   plugins: [
     {

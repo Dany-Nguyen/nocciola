@@ -39,7 +39,7 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          Boutique Atelier Nocciola, boutique made by{' '}
+          Boutique Atelier Nocciola, vitrine made by{' '}
           <span className={styles.gold}>Dany - Nocciola's cofounder.</span>
         </p>
         <p>
